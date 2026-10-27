@@ -20,7 +20,7 @@ export const posts = [
     slug:'pdf-reorder', name:'ADF PDF Reorder', category:'생산성', icon:'⇅', color:'peach',
     title:'양면 스캔 뒤 뒤섞인 PDF,\n페이지 순서 다시 맞추기',
     summary:'단면 ADF로 앞면과 뒷면을 나누어 스캔했다면. 페이지 재정렬 도구의 쓰임과 작업 전 확인할 내용을 정리했습니다.',
-    tagline:'뒤섞인 페이지를 원래 순서로', kicker:'문서 정리의 작은 번거로움', repo:'pdfchanger', url:'https://junhyuk1203.github.io/pdfchanger/', type:'웹 앱', read:3,
+    tagline:'뒤섞인 페이지를 원래 순서로', kicker:'문서 정리의 작은 번거로움', repo:'pdfchanger', url:'https://junhyuk.site/pdfchanger/', type:'웹 앱', read:3,
     sections:[
       ['앞면과 뒷면을 따로 스캔한 문서', '자동 급지 장치인 ADF로 문서를 스캔할 때, 단면 스캔을 두 번 해서 양면 문서를 만드는 경우가 있습니다. 이때 앞면 묶음과 뒷면 묶음이 이어지면 읽는 순서와 파일의 페이지 순서가 달라집니다. ADF PDF Reorder는 이런 상황에서 스캔 페이지의 순서를 다시 맞추기 위한 웹 도구입니다.'],
       ['파일을 넣고 재정렬하기', {steps:['원본 PDF를 별도로 보관합니다. 재정렬 결과와 비교하기 위해 필요합니다.', '앱의 업로드 영역을 클릭하거나 PDF 파일을 끌어다 놓습니다.', '파일 이름을 확인한 뒤 순서 재정렬하기를 실행합니다.', '결과 파일의 첫 장, 중간 장, 마지막 장을 원본 문서와 대조합니다.']}],
@@ -32,7 +32,7 @@ export const posts = [
     slug:'gemini-studio', name:'GeminiChat Studio', category:'AI 도구', icon:'✳', color:'lavender',
     title:'내 API 키로 사용하는\nGemini 대화 작업실',
     summary:'모델 선택부터 스트리밍 대화, 세션 관리와 Markdown 내보내기까지. 브라우저에서 Gemini를 사용하는 또 하나의 방법입니다.',
-    tagline:'모델을 고르고, 대화를 이어가고', kicker:'나에게 맞추는 AI 작업 공간', repo:'apigemini', url:'https://junhyuk1203.github.io/apigemini/', type:'웹 앱', read:4,
+    tagline:'모델을 고르고, 대화를 이어가고', kicker:'나에게 맞추는 AI 작업 공간', repo:'apigemini', url:'https://junhyuk.site/apigemini/', type:'웹 앱', read:4,
     sections:[
       ['모델 선택과 대화를 한 공간에서', 'GeminiChat Studio는 사용자의 Gemini API 키로 대화하는 웹 앱입니다. API 키가 지원하는 모델 목록을 불러오고, 선택한 모델과 스트리밍 방식으로 대화할 수 있습니다. 모델별 응답을 직접 살펴보거나 자주 쓰는 생성 옵션을 조정하고 싶은 경우에 활용할 수 있습니다.'],
       ['대화 이후의 작업도 이어서', 'README에는 Markdown 렌더링, 코드 하이라이팅과 복사, 여러 대화 세션 관리, 세션 검색, Markdown 내보내기가 안내되어 있습니다. 대화에서 받은 코드나 메모를 다른 문서로 옮기는 작업에 유용한 구성입니다. Temperature, 출력 토큰 수, 시스템 지시문도 조정할 수 있습니다.', 'Google 검색 연동 기능을 사용할 때는 답변에 붙은 출처를 직접 확인하세요. 검색 기능의 지원 여부와 사용 가능한 모델은 API 계정과 서비스 제공 상황에 따라 달라질 수 있습니다.'],
@@ -45,7 +45,7 @@ export const posts = [
     slug:'aether-weather', name:'Aether Weather', category:'생활', icon:'☀', color:'sky',
     title:'날씨와 지도를\n한 화면에서 살펴보기',
     summary:'실시간 날씨 지도와 시간대별 예보 그래프를 모은 대시보드. 외출 전 어떤 정보를 함께 보면 좋을지 소개합니다.',
-    tagline:'오늘의 하늘을 한눈에', kicker:'매일 확인하는 정보의 다른 모습', repo:'weather',url:'https://junhyuk1203.github.io/weather/',type:'웹 앱',read:3,
+    tagline:'오늘의 하늘을 한눈에', kicker:'매일 확인하는 정보의 다른 모습', repo:'weather',url:'https://junhyuk.site/weather/',type:'웹 앱',read:3,
     sections:[
       ['현재 날씨만으로 부족할 때', '아침에는 맑아도 돌아올 때 비가 올 수 있습니다. 외출 계획에는 현재 기온뿐 아니라 시간에 따른 변화와 지역별 차이도 필요합니다. Aether Weather는 날씨 지도와 24시간 예보 그래프 등 여러 정보를 한 화면에 배치한 대시보드 프로젝트입니다.'],
       ['대시보드를 보는 순서', {steps:['관심 지역이 올바르게 선택되어 있는지 확인합니다.', '현재 날씨와 시간대별 그래프를 비교해 외출 시간의 변화를 살펴봅니다.', '지도에서 주변 지역의 상황을 함께 확인합니다.', '안전과 관련된 상황은 공식 기상 정보와 재난 안내를 다시 확인합니다.']}],
@@ -69,7 +69,7 @@ export const posts = [
     slug:'model-radar',name:'Gemini Argon Radar',category:'AI 도구',icon:'◎',color:'peach',
     title:'모델 목록의 작은 변화를\n놓치지 않는 레이더',
     summary:'API 모델 목록을 기준점과 비교하고, 새 항목을 살펴보는 실험 도구. 감지 결과를 어떻게 해석해야 하는지도 함께 다룹니다.',
-    tagline:'API 모델 목록의 변화 기록',kicker:'새로운 모델을 관찰하는 방법',repo:'modelcheck',url:'https://junhyuk1203.github.io/modelcheck/',type:'웹 앱',read:3,
+    tagline:'API 모델 목록의 변화 기록',kicker:'새로운 모델을 관찰하는 방법',repo:'modelcheck',url:'https://junhyuk.site/modelcheck/',type:'웹 앱',read:3,
     sections:[
       ['목록의 변화에서 출발하기', 'Gemini Argon Radar는 Gemini API 모델 목록을 조회하고 새 항목의 등장을 관찰하는 웹 앱입니다. v1beta와 v1alpha 엔드포인트를 조회하고, 기준 목록과 비교해 달라진 항목을 표시하는 기능이 저장소에 소개되어 있습니다. 이름의 Argon은 검색 대상으로 설정한 키워드이며, 특정 모델의 공식 출시를 보증하는 표현은 아닙니다.'],
       ['관찰과 테스트의 흐름', {steps:['본인 계정의 API 키로 조회 가능한 모델 목록을 불러옵니다.', '현재 목록을 기준점으로 저장하고 적절한 조회 주기를 선택합니다.', '변경 항목의 ID, 설명, 지원 메서드를 확인합니다.', '필요하면 플레이그라운드에서 간단히 테스트하고 공식 문서와 대조합니다.']}],
@@ -79,10 +79,3 @@ export const posts = [
   }
 ];
 
-// HTTP 리디렉션 확인 결과. 원래 주소는 보존하고 접속 제한을 안내합니다.
-for (const post of posts) {
-  if (['pdfchanger', 'apigemini', 'weather', 'modelcheck'].includes(post.repo)) {
-    post.tagline += ' · 배포 주소 점검 필요';
-    post.note += ' 기존 배포 주소가 junhyuk.site로 이동하며, 2026-10-27 이 환경에서는 해당 도메인의 DNS 조회에 실패했습니다. 접속이 안 되면 아래 GitHub 저장소에서 배포 상태를 확인해 주세요.';
-  }
-}

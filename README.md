@@ -68,4 +68,4 @@ AdSense 계정의 게시자 ID가 설정되어 있으며 소유권 확인용 메
 
 ## 공개 앱 링크 확인 결과
 
-2026-10-27 HTTP 확인에서 Superword는 `https://word.junhyuk.site/`로 이동하여 200 응답을 반환했습니다. PDF·GeminiChat·날씨·모델 감지기의 GitHub Pages 주소는 `http://junhyuk.site/<저장소>/`로 301 이동했고, 이 실행 환경에서는 `junhyuk.site`에 ENOTFOUND가 발생했습니다. 이 네 앱의 배포 상태를 글과 실행 패널에 안내하며 원래 링크와 저장소 링크를 유지했습니다. 기존 앱의 DNS나 원격 배포는 변경하지 않았습니다. GitHub Pages의 상위 사용자 사이트 커스텀 도메인이 하위 프로젝트 주소에 영향을 줄 수 있으므로, 운영 중인 도메인과 각 앱의 Pages 설정을 함께 확인해야 합니다.
+2026-10-27 확인에서 Superword와 PDF·GeminiChat·날씨·모델 감지기 앱의 HTTPS 주소가 모두 200 응답을 반환했습니다. 상위 도메인의 A 레코드 설정 직후에는 DNS 캐시가 갱신되기까지 일부 환경에서 접속이 지연될 수 있습니다.
