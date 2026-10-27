@@ -5,7 +5,7 @@ export default {
   email: '',
   updated: '2026-10-27',
   adsense: {
-    publisher: '',
+    publisher: 'ca-pub-4066182972922652',
     articleSlot: '',
     enabled: false,
     // EEA·영국·스위스 트래픽은 Google 인증 CMP를 먼저 구성하세요.

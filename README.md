@@ -41,7 +41,7 @@ npm run dev
 
 ## AdSense 준비 상태
 
-신청 전이므로 `adsense.enabled`는 false이고, 게시자 ID와 광고 단위 ID는 비어 있습니다. 가짜 ID나 광고 스크립트를 삽입하지 않습니다. `ads.txt`에는 아직 판매자를 선언하지 않았다는 주석만 있습니다.
+AdSense 계정의 게시자 ID가 설정되어 있으며 소유권 확인용 메타 태그와 `ads.txt`가 생성됩니다. 계정 승인 및 동의 설정 전이므로 `adsense.enabled`는 false이고 광고 단위 ID는 비어 있습니다. 광고 스크립트는 삽입하지 않습니다.
 
 준비한 항목: 검색 가능한 개별 HTML 글, 모바일 레이아웃, 설명·문의·정책 페이지, canonical·Open Graph·BlogPosting·사이트맵, 본문의 광고 단위 삽입 위치. 메뉴와 문의 화면 등에는 광고를 넣지 않습니다.
 
